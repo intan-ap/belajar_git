@@ -1,2 +1,2 @@
-def substitute(a, b):
-    return a - b
+def substitute(a, b, c):
+    return a - b - c
