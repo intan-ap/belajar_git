@@ -83,7 +83,7 @@
 3. git remote -v
 4. git push -u origin main
 
-# Merge request
+# Push ke Remote Repository
 1. git status
 2. git checkout main
 3. Lakukan perubahan di file sub
@@ -93,6 +93,13 @@
 7. git stash
 8. git status (kalau di stash, yang kesimpen cuma yang di modify)
 9. git checkout -b feat/parameter_sub
-10. git stash pop
+10. git stash pop >>> balikin saved index ke working directory
 11. git add .
 12. git status
+13. git commit -m "Adding parameter c and readme"
+14. git log
+15. git push origin feat/parameter_sub
+16. Klik compare & request di github
+17. Create pull request di github
+18. Merge pull request di github
+19.
